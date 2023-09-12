@@ -9,6 +9,7 @@
 
     --color-white: hsl(0, 0%, 100%);
     --color-violet: hsl(257, 40%, 49%);
+    --color-violet-hover: hsl(257, 40%, 37%);
     --color-soft-magenta: hsl(300, 69%, 71%);
 }
 
@@ -60,4 +61,22 @@ body {
     font-size: 1.4rem;
     line-height: 160%;
     padding: 0 2.4rem;
+}
+
+.btn-register {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: var(--color-violet);
+    padding: .8rem 6.2rem;
+    border: none;
+    border-radius: 3.2rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+    transition: 0.3s;
+}
+
+.btn-register:hover {
+    background-color: var(--color-violet-hover);
+    color: var(--color-white);
+    cursor: pointer;
 }
