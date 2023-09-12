@@ -11,4 +11,13 @@ font-family: 'Poppins', sans-serif;
 
 :root {
     font-size: 62.5%;
+
+    --color-white: hsl(0, 0%, 100%);
+    --color-violet: hsl(257, 40%, 49%);
+    --color-soft-magenta: hsl(300, 69%, 71%);
+}
+
+body {
+    background-color: var(--color-violet);
+    color: var(--color-white);
 }
