@@ -24,12 +24,17 @@ body {
     margin: 0 3.2rem;
 }
 
+header img {
+    width: 42%;
+    margin-top: 3.2rem;
+}
+
 .mockups img {
     width: 100%;
 }
 
 .mockups {
-    margin-top: 5.0rem;
+    margin-top: 5.4rem;
     position: relative;
 }
 
@@ -47,7 +52,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.6rem;
+    gap: 2.0rem;
     text-align: center;
 }
 
