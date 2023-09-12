@@ -21,3 +21,33 @@ body {
     background-color: var(--color-violet);
     color: var(--color-white);
 }
+
+#app {
+    margin: 0 2.4rem;
+}
+
+.mockups img {
+    width: 100%;
+}
+
+.mockups {
+    margin-top: 5.0rem;
+    position: relative;
+}
+
+.bg-svg {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+.introduction {
+    margin-top: 9.6rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
