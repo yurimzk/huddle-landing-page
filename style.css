@@ -38,11 +38,11 @@ header img {
     position: relative;
 }
 
-.bg-svg {
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 0;
+main {
+    background-image: url(./images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .introduction {
@@ -83,7 +83,7 @@ header img {
 }
 
 .btn-register:hover {
-    background-color: var(--color-violet-hover);
+    background-color: var(--color-soft-magenta);
     color: var(--color-white);
     cursor: pointer;
 }
@@ -99,17 +99,6 @@ footer {
 
 footer i:hover {
     cursor: pointer;
-}
-
-footer .facebook:hover {
-    color: var(--color-dark-blue);
-}
-
-footer .twitter:hover {
-    color: var(--color-light-blue);
-}
-
-footer .instagram:hover {
     color: var(--color-soft-magenta);
 }
 
@@ -150,5 +139,37 @@ footer .instagram:hover {
 
     footer {
         margin-top: 4.8rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    main {
+        display: flex;
+        margin-top: 4.8rem;
+    }
+
+    .bg-svg {
+        background-image: url(./images/bg-desktop.svg);
+    }
+
+    .mockups {
+        margin-top: 0;
+    }
+
+    .introduction {
+        margin-top: 0;
+    }
+
+    .introductionh h1 {
+        font-size: 2.4rem;
+    }
+
+    .introduction p {
+        font-size: 1.6rem;
+    }
+
+    .btn-register {
+        font-size: 1.6rem;
+        padding: 1.2rem 6.4rem;
     }
 }
