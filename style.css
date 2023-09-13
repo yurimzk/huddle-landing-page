@@ -43,10 +43,10 @@ main {
 
 .bg-img {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    top: -125px;
+    left: -32px;
+    right: -35px;
+    bottom: 329px;
     background-image: url(./images/bg-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
