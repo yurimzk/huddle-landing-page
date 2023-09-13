@@ -35,14 +35,23 @@ header img {
 
 .mockups {
     margin-top: 5.4rem;
-    position: relative;
 }
 
 main {
+    position: relative;
+}
+
+.bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-image: url(./images/bg-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    z-index: -1;
 }
 
 .introduction {
@@ -111,11 +120,6 @@ footer i:hover {
         margin-top: 5.6rem;
     }
 
-    .bg-svg {
-        position: absolute;
-        width: 100%;
-    }
-
     .mockups {
         margin-top: 11.2rem;
     }
@@ -146,10 +150,6 @@ footer i:hover {
     main {
         display: flex;
         margin-top: 4.8rem;
-    }
-
-    .bg-svg {
-        background-image: url(./images/bg-desktop.svg);
     }
 
     .mockups {
